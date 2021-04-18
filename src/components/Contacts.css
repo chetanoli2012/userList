@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-wrapper {
+  width: 100%;
+  max-width: 25em;
+  min-height: 100vh;
+  background: aliceblue;
+  box-sizing: border-box;
+}
+.contact-wrapper .nav {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #999;
+}
+.contact-wrapper .nav .section-header {
+  text-align: center;
+  font-size: large;
+  letter-spacing: 2px;
+}
+.contact-wrapper .contact-section {
+  padding: 1.5em;
+}
+.contact-wrapper .contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-wrapper .contact-list .contact-section-header {
+  padding: 0.25em;
+  color: #8f93a5;
+  text-align: right;
+}
+.contact-wrapper .contact-list .contact-list-item {
+  background: white;
+  padding: 0.5em;
+  margin: 0 0 1em 0;
+}
+.contact-wrapper .contact-list .contact-name {
+  font-weight: 600;
+}
+.contact-wrapper .contact-list .contact-name .first-name:after,
+.contact-wrapper .contact-list .contact-name .middle-name:after {
+  content: " ";
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 5px 6px -6px #777;
+}
+.card.card-small .card-img {
+  width: 20%;
+}
+.card.card-small .card-img img {
+  max-width: 100%;
+}
+.card.card-small .card-content {
+  flex: 1;
+  padding: 0 0.25em;
+}
+.card.card-small .card-action {
+  flex: 1;
+}
+
+.flex, .card .card-body {
+  display: flex;
+  align-items: center;
+}
+
+.pT0 {
+  padding-top: 0;
+}
